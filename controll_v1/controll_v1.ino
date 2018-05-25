@@ -6,8 +6,8 @@ void setup() {
 }
 
 void loop() {
-	PORTB |= B00100000;
+	PORTD |= B00100000;
 	delay(1000);
-	PORTB &= B11011111;
+	PORTD &= B11011111;
 	delay(1000);
 }
