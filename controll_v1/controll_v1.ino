@@ -6,6 +6,7 @@ void setup() {
 }
 
 void loop() {
+
 	PORTD |= B00100000;
 	delay(1000);
 	PORTD &= B11011111;
